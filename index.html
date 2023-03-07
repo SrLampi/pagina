@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="extras/normalize.css">
+    <link rel="icon" href="img/ícono 2.png">
+    <link rel="stylesheet" href="extras/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Mi primera página web</title>
+
+</head>
+<body class="body">
+    <div class="contenedor">
+        <!-- Encabezado -->
+        <header class="encabezado">
+            <img src="img/ícono 2.png" alt="ícono" usemap="#Icono" class="encabezado__img">
+                <map name="Icono" class="encabezado__img--map">
+                    <area shape="circle" coords="76,63,56" href="index.html" class="encabezado__img--area"> 
+                </map>
+            <nav class="encabezado__nav">    
+                <ul class="encabezado__nav--ul">
+                    <li class="encabezado__nav--ul-li_1"><a class="encabezado__nav--ul-a" href="paginasextra/HTML/html.html">HTML</a></li>
+                    <li class="encabezado__nav--ul-li"><a class="encabezado__nav--ul-a" href="paginasextra/Etiquetas/etiquetas.html">Etiquetas</a></li>
+                    <li class="encabezado__nav--ul-li"><a class="encabezado__nav--ul-a" href="paginasextra/Atibutos/atributos.html">Atributos</a></li>
+                </ul>  
+            </nav>
+            <div class="encabezado__solidbars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="encabezado__desplegable">
+                <ul class="encabezado__desplegable--ul">
+                    <li class="encabezado__desplegable--ul-li"><a class="encabezado__desplegable--ul-li_a" href="#">Mi código</a></li>
+                    <li class="encabezado__desplegable--ul-li"><a class="encabezado__desplegable--ul-li_a" href="#"> Inténtalo tú mismo</a></li>
+                    <li class="encabezado__desplegable--ul-li"><a class="encabezado__desplegable--ul-li_a" href="#"> Páginas para diseñadores web</a></li>
+                    <li class="encabezado__desplegable--ul-li"><a class="encabezado__desplegable--ul-li_a" href="#"> Herramientas para programadores</a></li>
+                    <li class="encabezado__desplegable--ul-li"><a class="encabezado__desplegable--ul-li_a" href="#"> Bibliografía y referencias</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- parte principal -->
+                <div class="div-indexmain">
+                    <main class="indexmain">
+                        <h1 class="indexmain__h1">¿Qué es esta página?</h1>
+                        <p class="indexmain__p">Esta es la primera página web que diseño, su utilidad será la de explicar ordenadamente todo lo que he aprendido del lenguaje HTML, por cuestiones de tiempo no se añadirá  la información sobre lo que he aprendido de Css. </p>
+                         <br >
+                        <p class="indexmain__p">Esta página tiene un código bastante simple, sin embargo voy a tratar de implementar todas las características que he aprendido que me sea posible. Naturalmente, aunque solo se va a encontrar información acerca de etiquetas de HTML y sus atributos, la misma página va a tener en su código todo lo que he aprendido (o una mayor parte) de Css.</p>
+                        <br>
+                        <p class="indexmain__p"> El uso de código JavaScript estará limitado a unas pocas funciones que he aprendido, por lo que la página no tendrá funciones de interacción en su mayor parte, a exepción de unas pocas implementaciones básicas que he aprendido mientras estudiaba el código Css y HTML.</p>
+                    </main>
+                    <div class="divisor">
+                         <!-- Aside -->
+                        <aside class="indexaside">
+                            <p class="indexaside__p">La estructúra semántica que sigue esta página es la siguiente:</p>
+                            <div class="indexaside__div">
+                                <img src="img/Estructura semántica.png" alt="Estructura semántica.png" class="indexaside__div--img">
+                            </div>
+                        </aside>
+                        <!-- Section -->
+                        <section class="indexsection">
+                            <h2 class="indexsection__h2">Características de la página web</h2>
+                            <p class="indexsection__p">Si se analiza el código de la página web, se puede observar que trata de ser una página organizada semántiacamente correcta, utilizando en su estructura las etiquetas semánticas para la distribución de parráfos y contenido.</p>
+                            <p class="indexsection__p">En adición, la página carece de cualquier tipo de medida de seguridad contra hackeo, a excepción de la que provee el host temporal en el que está alojada.</p>
+                            <br>
+                            <p class="indexsection__p">En el Header, a la derecha del todo se puede encontrar un símbolo de barras, al hacerle click se desplegará una interfaz con diferentes opciones, entre las cuales se encuentra la bibliografía y las referencias que utilicé para aprender a programar. Así mísmo se incluye un poco de información acerca de herramientas que he conocido son utilizadas por los programadores, principalmente para el diseño web.</p>
+                        </section>
+                       
+                        <!-- Section -->
+                        <section class="indexsection2">
+                            <h2 class="indexsection2__h2"> Modo de navegación</h2>
+                            <p class="indexsection2__p">La idea de esta página, como ya se mencionó anteriormente, es la de explicar todo lo que he aprendido acerca del código HTML. Esto se hará distribuyendo toda la información y conectándola entre diferentes documentos HTML.</p>
+                            <p class="indexsection2__p">Si observamos el Header, se pueden observar 3 opciones: "HTML" "etiquetas" y "atributos"; estas opciones redirigen a una página diferente cada una. <br>
+                            Adicionalmente, si damos click al logo que aparece en el header, nos enviará de vuelta a esta página.</p>
+                                <article class="indexsection2__article">
+                                    <h3 class="indexsection2__article--h3">HTML</h3>
+                                    <p class="indexsection2__article--p">Esta opción nos redirigirá a una página (Enlazada) dónde se encuentran categorizadas de acuerdo a su uso las etiquetas HTML, organizadas en una tabla, que a su vez, tendrá en cada uno de los nombres de las etiquetas la capacidad de redirigirnos a una página diferente (Enlazada) que especifique las carácterísticas de la etiqueta, y sus atributos.</p>
+                                </article>
+                                <article class="indexsection2__article">
+                                    <h3 class="indexsection2__article--h3">Etiquetas</h3>
+                                    <p class="indexsection2__article--p">Esta opción nos redirigirá a una página (Enlazada) que contiene una tabla con todas las etiquetas, pero que en lugar de estar separadas en categorías, estarán organizadas en orden alfabético, incluyendo al final, las etiquetas que se encuentran <mark class="resaltado">desaprobadas</mark> y que por tanto, no deben ser usadas en las páginas web. </p>
+                                </article>
+                                <article class="indexsection2__article">
+                                    <h3 class="indexsection2__article--h3">Atributos</h3>
+                                    <p class="indexsection2__article--p">Esta opción nos redirigirá a una página (Enlazada) que contiene una tabla con todos los atributos de HTML, con su respectiva descripción, con que etiquetas con compatibles y los valores que puede tomar cada atributo. En adición, se incluirán algunas precauciones sobre los atributos que es mejor no utilizar.</p>
+                                    <br>
+                                </article>
+                        </section>
+                    </div> 
+                </div> 
+                        <footer class="indexfooter"> 
+                            <h4 class="indexfooter__h4">Mis redes sociales:</h4>
+                            <ul class="indexfooter__ul">  
+                                <li class="indexfooter__ul--li"> <a class="indexfooter__ul--li-a" href="https://www.facebook.com/sanseb.sanchezruiz.1" target="_blank"><i class="fa-brands fa-facebook"></a></i> Mi facebook</li>
+                                <li class="indexfooter__ul--li"> <a href="https://www.instagram.com/santiagosanchezs78/" target="_blank" class="indexfooter__ul--li-a"><i class="fa-brands fa-instagram"></a></i> Mi instagram</li>
+                                <li class="indexfooter__ul--li"> <a href="https://twitter.com/SrLampi" target="_blank" class="indexfooter__ul--li-a"><i class="fa-brands fa-twitter"></a></i> Mi Twitter</li>
+                            </ul>
+                            <h4 class="indexfooter__h4">Número de contacto</h4>
+                                <p class="indexfooter__p"><i class="fa-brands fa-whatsapp"></i>+57 3016762873</p>
+                        </footer>
+    </div>  
+<script src="main.js"></script>
+</body>
+</html>
